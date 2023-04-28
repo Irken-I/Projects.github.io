@@ -42,40 +42,61 @@
 						<!-- Post -->
 							<section class="post">
 								<header class="major">
-									<span class="date">April 25, 2012</span>
+									<span class="date">February 25, 2023</span>
 									<h1>Stock Price<br />
 									Prediction</h1>
-									<p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br />
-									facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br />
-									amet nullam sed etiam veroeros.</p>
+									<p>Stock price prediction using with an ETS (Error, Trend and Season) model, back testing and results.</p>
 
 								</header>
-								<div class="image main"><img src="images/timeseries.jpg" alt="" /></div>
-								<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur sapien risus, commodo eget turpis at, elementum convallis enim turpis, lorem ipsum dolor sit amet nullam.</p>
+								<div class="image main"><img src="images/XOM.png" alt="" />
 								
+								</div>
+
+								<p>Stock price prediction is a vital aspect of financial decision-making, and one of the popular methods used for time series forecasting is the ETS (Error, Trend, Seasonality) model. The ETS model is effective at identifying and modeling the underlying trends, seasonality, and random fluctuations in stock price data, which allows for accurate prediction of future stock prices.</p>
+								
+								<p>One of the important steps in evaluating the effectiveness of a predictive model is back testing, which involves comparing the model's predictions against actual stock prices from a historical time period. By comparing the predictions to actual stock prices, analysts can assess the accuracy and reliability of the model and identify areas for improvement.</p>
+								<p>In evaluating the results of the ETS model, one commonly used metric is the Mean Absolute Error (MAE), which measures the average absolute difference between the predicted and actual values. Another metric is the Root Mean Squared Error (RMSE), which measures the average difference between predicted and actual values, squared and then rooted. Additionally, the Mean Absolute Percentage Error (MAPE) is a common metric used to evaluate the accuracy of time series forecasts, which measures the average percentage difference between the predicted and actual values.</p>
+								<p>However, it is important to remember that even the best forecasting models can never provide perfect predictions, and investors should always approach financial decision-making with caution and a full understanding of the risks involved.</p>
+
 								<p>
 									<h2>
 										Code Sample 
 									</h2>
 								<p>
 
+									<script src="https://gist.github.com/Irken-I/354d59b71d74fc7bffe74ad2331231dd.js"></script>>
 
-								<div class="code">
-								  function greet(name) {
-									console.log("Hello, " + name + "!");
-								  }
-								</div>
-								
-								<style>
-								  .code {
-									font-family: monospace;
-									text-align: center;
-									display: flex;
-									align-items: center;
-									border: 1px solid #ccc;
-    								border-radius: 5px;
-								  }
+								  <style>
+
+										pre, code {
+										font-family: monospace, monospace;
+										}
+										pre {
+										overflow: auto;
+										}
+										pre > code {
+										display: block;
+										padding: 1rem;
+										word-wrap: normal;
+										}
+
+										code[class*="language-"],
+										pre[class*="language-"] {
+										text-shadow: 0 1px #fff;
+										direction: ltr;
+										text-align: left;
+										white-space: pre;
+										word-spacing: normal;
+										word-break: normal;
+										word-wrap: normal;
+										line-height: 2;
+										-moz-tab-size: 2; -o-tab-size: 2; tab-size: 2;
+										-webkit-hyphens: none; -moz-hyphens: none; -ms-hyphens: none; hyphens: none;
+									}
+
 								</style>
+							
+
 							</section>
 
 					</div>
